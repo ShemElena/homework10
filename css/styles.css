@@ -89,7 +89,7 @@ body{
 .ball1 {
     position: absolute;
     top: 0;
-    left: -200px;
+    left: 0px;
     width: 50px;
     height: 50px;
     background-color:  gray;
@@ -99,22 +99,22 @@ body{
 
 @keyframes ball-moving {
     0% {
-        left: -200px;
+        left: 0px;
         }
         25% {
-        left: 0px;
+        left: -200px;
         }
     
         50% {
-        left: -200px;
+        left: 0px;
         }
     
         75% {
-        left: -200px;
+        left: 0px;
         }
     
         100% {
-        left: -200px;
+        left: 0px;
         }
 }
 
@@ -171,7 +171,7 @@ body{
 .ball7 {
     position: absolute;
     top: 0;
-    left: 500px;
+    left: 300px;
     width: 50px;
     height: 50px;
     background-color:rgb(166, 101, 226);
@@ -181,18 +181,18 @@ body{
 
 @keyframes ball7-moving {
     0% {
-        left: 500px;
-    }
-    25% {
-        left: 500px;
-    }
-    50% {
-        left: 500px;
-    }
-    75%{
         left: 300px;
     }
-    100%{
+    25% {
+        left: 300px;
+    }
+    50% {
+        left: 300px;
+    }
+    75%{
         left: 500px;
+    }
+    100%{
+        left: 300px;
     }
 }
